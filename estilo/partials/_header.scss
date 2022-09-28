@@ -3,7 +3,7 @@
     margin: 0px;
     width: 100%;
     background-image: url(../images/madera.jpg); width: 100%;
-    color: #fff;
+    color: map-get($colores, color);
     background-position: center center;
     background-attachment: fixed;
     height: 150px;
@@ -18,8 +18,8 @@
         right: 10px;
     }
        li a{
-            color: #fff;
-            border: #fff 1px solid;
+            color: map-get($colores, color);
+            border: map-get($colores, color) 1px solid;
             width: 20px;
             padding: 10px;
             border-radius: 3px;
